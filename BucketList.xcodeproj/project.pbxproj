@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5943DE5A1DF746B000C6D5FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943DE591DF746B000C6D5FD /* AppDelegate.swift */; };
-		5943DE5C1DF746B000C6D5FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943DE5B1DF746B000C6D5FD /* ViewController.swift */; };
+		5943DE5C1DF746B000C6D5FD /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943DE5B1DF746B000C6D5FD /* BucketListViewController.swift */; };
 		5943DE5F1DF746B000C6D5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943DE5D1DF746B000C6D5FD /* Main.storyboard */; };
 		5943DE611DF746B000C6D5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5943DE601DF746B000C6D5FD /* Assets.xcassets */; };
 		5943DE641DF746B000C6D5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943DE621DF746B000C6D5FD /* LaunchScreen.storyboard */; };
+		5943DE6C1DF761B800C6D5FD /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943DE6B1DF761B800C6D5FD /* MissionDetailsViewController.swift */; };
+		5943DE6E1DF765CF00C6D5FD /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943DE6D1DF765CF00C6D5FD /* CancelButtonDelegate.swift */; };
+		5943DE701DF76AAC00C6D5FD /* MissionDetailsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943DE6F1DF76AAC00C6D5FD /* MissionDetailsViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5943DE561DF746B000C6D5FD /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5943DE591DF746B000C6D5FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5943DE5B1DF746B000C6D5FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5943DE5B1DF746B000C6D5FD /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		5943DE5E1DF746B000C6D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5943DE601DF746B000C6D5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5943DE631DF746B000C6D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5943DE651DF746B000C6D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5943DE6B1DF761B800C6D5FD /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		5943DE6D1DF765CF00C6D5FD /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		5943DE6F1DF76AAC00C6D5FD /* MissionDetailsViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				5943DE591DF746B000C6D5FD /* AppDelegate.swift */,
-				5943DE5B1DF746B000C6D5FD /* ViewController.swift */,
+				5943DE5B1DF746B000C6D5FD /* BucketListViewController.swift */,
 				5943DE5D1DF746B000C6D5FD /* Main.storyboard */,
 				5943DE601DF746B000C6D5FD /* Assets.xcassets */,
 				5943DE621DF746B000C6D5FD /* LaunchScreen.storyboard */,
 				5943DE651DF746B000C6D5FD /* Info.plist */,
+				5943DE6B1DF761B800C6D5FD /* MissionDetailsViewController.swift */,
+				5943DE6D1DF765CF00C6D5FD /* CancelButtonDelegate.swift */,
+				5943DE6F1DF76AAC00C6D5FD /* MissionDetailsViewControllerDelegate.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5943DE5C1DF746B000C6D5FD /* ViewController.swift in Sources */,
+				5943DE5C1DF746B000C6D5FD /* BucketListViewController.swift in Sources */,
+				5943DE701DF76AAC00C6D5FD /* MissionDetailsViewControllerDelegate.swift in Sources */,
+				5943DE6C1DF761B800C6D5FD /* MissionDetailsViewController.swift in Sources */,
+				5943DE6E1DF765CF00C6D5FD /* CancelButtonDelegate.swift in Sources */,
 				5943DE5A1DF746B000C6D5FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.BucketList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -276,7 +288,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.BucketList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
